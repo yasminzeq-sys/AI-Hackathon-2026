@@ -18,9 +18,9 @@ def load_and_train():
 model = load_and_train()
 
 # --- STEP 2: USER INTERFACE ---
-st.set_page_config(page_title="AI Hesitation Nudge Demo", layout="wide")
+st.set_page_config(page_title="AI Hesitation Detector", layout="wide")
 st.title("🛒 Smart E-Commerce: Real-Time Hesitation Detector")
-st.markdown("This AI monitors user behavior and triggers a 'Nudge' before they abandon their cart.")
+st.markdown("This AI monitors user behavior and triggers a 'Popularity Alert' before they abandon their cart.")
 
 # Sidebar for Simulation
 st.sidebar.header("Simulate User Behavior")
@@ -57,11 +57,11 @@ with col1:
         st.success("✅ AI STATUS: NORMAL BROWSING")
 
 with col2:
-    st.subheader("The 'Nudge' Output")
+    st.subheader("The 'Popularity Alert' Output")
     # CHANGE THIS LINE BELOW AS WELL:
     if hesitant_users:
-        st.info("💡 **AI Recommendation:** Show the 'Social Proof' Nudge!")
+        st.info("💡 **AI Recommendation:** Show the 'Popularity Alert'!")
         st.toast("Wait! 45 other people bought this today.")
         st.image("https://img.freepik.com/free-vector/limited-offer-banner-design_23-2148670155.jpg", width=300)
     else:
-        st.write("No nudge required. Monitoring activity...")
+        st.write("No popularity alert needed. Monitoring activity...")
