@@ -62,6 +62,6 @@ with col2:
     if hesitant_users:
         st.info("💡 **AI Recommendation:** Show the 'Popularity Alert'!")
         st.toast("Wait! 45 other people bought this today.")
-        st.image("tablet.jpg", width=300)
+        st.image("tablet.jpeg", width=300)
     else:
         st.write("No popularity alert needed. Monitoring activity...")
