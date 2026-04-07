@@ -1,7 +1,7 @@
 # Smart E-Commerce: Real-Time Hesitation Detector 🛒🤖
 
 ### Project Overview
-Our AI predicts when a customer is about to leave a site without buying and triggers a "Social Proof" to increase sales.
+Our AI predicts when a customer is about to leave a site without buying and triggers a "Popularity Alert" to increase sales.
 
 ### Tech Stack
 * **Frontend:** Streamlit
