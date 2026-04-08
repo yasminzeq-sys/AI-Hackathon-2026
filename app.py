@@ -40,8 +40,6 @@ input_data = pd.DataFrame([[age, time_on_site, pages_viewed, prev_purchases,
                                    'avg_session_time', 'bounce_rate'])
 
 # --- STEP 3: PREDICTION ---
-prediction_prob = model.predict_proba(input_data)[0][1] # Get probability of hesitation
-hesitant_users = model.predict(input_data)[0]
 
 # 1. Get the probability from the AI Model
 probability = model.predict_proba(features)[0][1]
