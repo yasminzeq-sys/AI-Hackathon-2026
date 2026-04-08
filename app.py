@@ -57,7 +57,7 @@ with col1:
         st.success("✅ AI STATUS: NORMAL BROWSING")
 
 with col2:
-    st.subheader("The 'Popularity Alert' Output")
+    st.subheader("AI Smart Alert: Popularity & Value")
     # CHANGE THIS LINE BELOW AS WELL:
     if hesitant_users:
         st.info("💡 **AI Recommendation:** Show the 'Popularity Alert' + Price Incentive!")
