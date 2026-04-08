@@ -63,6 +63,7 @@ with col2:
         st.info("💡 **AI Recommendation:** Show the 'Popularity Alert' + Price Incentive!")
         st.toast("High Demand! 50 other people bought this today.")
         st.warning("### Don't Miss Out!")
+        st.write("This Tablet is trending right now. Use your active **10% discount** before stock runs out!")
         st.image("tablet.jpeg", width=300)
     else:
         st.write("No popularity alert needed. Monitoring activity...")
