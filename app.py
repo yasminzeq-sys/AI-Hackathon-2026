@@ -60,7 +60,7 @@ with col2:
     st.subheader("The 'Popularity Alert' Output")
     # CHANGE THIS LINE BELOW AS WELL:
     if hesitant_users:
-        st.info("💡 **AI Recommendation:** Show the 'Popularity Alert'!")
+        st.info("💡 **AI Recommendation:** Show the 'Popularity Alert' + Price Incentive!")
         st.toast("High Demand! 50 other people bought this today.")
         st.warning("### Don't Miss Out!")
         st.image("tablet.jpeg", width=300)
