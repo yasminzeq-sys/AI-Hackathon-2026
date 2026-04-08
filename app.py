@@ -25,7 +25,7 @@ st.markdown("This AI monitors user behavior and triggers a 'Smart Alert' before 
 # Sidebar for Simulation
 st.sidebar.header("Simulate User Behavior")
 age = st.sidebar.slider("User Age", 18, 80, 30)
-time_on_site = st.sidebar.slider("Time on Site (Minutes)", 1, 40, 5)
+time_on_site = st.sidebar.slider("Time on Site (Minutes)", 1, 30, 5)
 pages_viewed = st.sidebar.slider("Pages Viewed", 1, 20, 3)
 prev_purchases = st.sidebar.number_input("Previous Purchases", 0, 50, 2)
 cart_items = st.sidebar.number_input("Items currently in Cart", 0, 10, 1)
