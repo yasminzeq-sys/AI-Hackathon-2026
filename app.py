@@ -60,7 +60,7 @@ with col2:
     st.subheader("AI Smart Alert: Popularity & Value")
     # CHANGE THIS LINE BELOW AS WELL:
     if hesitant_users:
-        st.info("💡 **AI Recommendation:** Show the 'Popularity Alert' + Price Incentive!")
+        st.info("💡 **AI Recommendation:** Show the Popularity Alert + Price Incentive")
         st.toast("High Demand! 50 other people bought this today.")
         st.warning("### Don't Miss Out!")
         st.write("This Tablet is trending right now. Use your active **10% discount** before stock runs out!")
