@@ -43,6 +43,18 @@ input_data = pd.DataFrame([[age, time_on_site, pages_viewed, prev_purchases,
 prediction_prob = model.predict_proba(input_data)[0][1] # Get probability of hesitation
 hesitant_users = model.predict(input_data)[0]
 
+# 1. Get the probability from the AI Model
+probability = model.predict_proba(features)[0][1]
+
+# 2. Apply your "Expert Rule" (The 20-min / 10-page rule)
+# We use 'or' so it catches them if they hit either extreme, 
+# or 'and' if they must hit both.
+if time_on_site > 20 and pages_viewed > 10:
+    probability = 1.0  # Force it to 100% Hesitation
+    rule_triggered = True
+else:
+    rule_triggered = False
+
 # --- STEP 4: DISPLAY RESULTS ---
 col1, col2 = st.columns(2)
 
