@@ -19,7 +19,7 @@ model = load_and_train()
 
 # --- STEP 2: USER INTERFACE ---
 st.set_page_config(page_title="AI Hesitation Detector", layout="wide")
-st.title("🛒 Smart E-Commerce: Real-Time Hesitation Detector")
+st.title("🛒 Real-Time Hesitation Detector")
 st.markdown("This AI monitors user behavior and triggers a 'Popularity Alert' before they abandon their cart.")
 
 # Sidebar for Simulation
