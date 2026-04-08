@@ -66,4 +66,4 @@ with col2:
         st.write("This Tablet is trending right now. Use your active **10% discount** before stock runs out!")
         st.image("tablet.jpeg", width=300)
     else:
-        st.write("No popularity alert needed. Monitoring activity...")
+        st.write("No smart alert needed. Monitoring activity...")
