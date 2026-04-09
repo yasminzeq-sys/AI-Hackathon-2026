@@ -18,7 +18,7 @@ def load_and_train():
 model = load_and_train()
 
 # --- STEP 2: USER INTERFACE ---
-st.set_page_config(page_title="AI Hesitation Detector", layout="wide")
+st.set_page_config(page_title="Hesitation Detector AI", layout="wide")
 st.title("🛒 Real-Time Hesitation Detector")
 st.markdown("This AI monitors user behavior and triggers a 'Smart Alert' before they abandon their cart.")
 
@@ -58,10 +58,10 @@ with col1:
         st.success("✅ AI STATUS: NORMAL BROWSING")
 
 with col2:
-    st.subheader("AI Smart Alert: Popularity & Value")
+    st.subheader("AI Smart Alert: Social Proof & Value")
     # CHANGE THIS LINE BELOW AS WELL:
     if hesitant_users:
-        st.info("💡 **AI Recommendation:** Show the Popularity Alert + Price Incentive")
+        st.info("💡 **AI Recommendation:** Show the Popularity Alert + Discount")
         st.toast("High Demand! 50 other people bought this today.")
         st.warning("### Don't Miss Out!")
         st.write("This Tablet is trending right now. Use your active **10% discount** before stock runs out!")
