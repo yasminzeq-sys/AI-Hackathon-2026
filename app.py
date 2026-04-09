@@ -66,7 +66,7 @@ with col2:
         st.warning("### Don't Miss Out!")
         st.write("This Tablet is trending right now. Use your active **10% discount** before stock runs out!")
         st.image("tablet.jpeg", width=300)
-        st.write("Customers who viewed this also liked Mobile")
+    # The Recommendation "Pop"
         st.divider()
         st.write("### 🏷️ Personalized for You")
         st.caption("Based on your interest in Gadgets:")
