@@ -1,5 +1,7 @@
 # AI Hesitation Detector: Smart E-Commerce Engine
 
+**GitHub Repository:** https://github.com/yasminzeq-sys/AI-Hackathon-2026
+
 An AI-powered real-time detection system designed to identify consumer hesitation during the online shopping journey. This project implements a predictive framework based on recent behavioral research to convert "invisible" revenue leaks into successful sales.
 
 ## 📖 Project Explanation
