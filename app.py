@@ -18,7 +18,7 @@ def load_and_train():
 model = load_and_train()
 
 # --- STEP 2: USER INTERFACE ---
-st.set_page_config(page_title="Hesitation Detector AI", layout="wide")
+st.set_page_config(page_title="AI Hesitation Detector", layout="wide")
 st.title("🛒 Real-Time Hesitation Detector")
 st.markdown("This AI monitors user behavior and triggers a 'Smart Alert' before they abandon their cart.")
 
