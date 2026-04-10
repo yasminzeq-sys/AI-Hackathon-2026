@@ -38,3 +38,4 @@ cd ai-hesitation-detector
 ### How to Run
 1. Adjust the sliders on the left side (Time on Site / Pages Viewed/Bounce Rate).
 2. Observe the AI Status and the dynamic nudge output.
+https://ai-hackathon-2026-nnnczhdkh5cxum4ep6djwf.streamlit.app/#smart-e-commerce-real-time-hesitation-detector
